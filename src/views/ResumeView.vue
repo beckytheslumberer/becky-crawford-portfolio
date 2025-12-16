@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const pdfUrl = '/resume.pdf'
+const pdfUrl = '/becky-crawford-portfolio/resume.pdf'
 const pdfFileName = 'Becky-Crawford-Resume.pdf'
 
 const downloadResume = () => {
@@ -34,15 +34,12 @@ const downloadResume = () => {
     </header>
 
     <div class="resume-viewer">
-      <object data="/resume.pdf"
-              type="application/pdf"
+      <iframe :src=pdfUrl
               width="100%"
-              height="100%">
-        <p>
-          Your browser can't display the PDF.
-          <a href="/resume.pdf" target="_blank" rel="noopener">Download it instead.</a>
-        </p>
-      </object>
+              height="100%"
+              type="application/pdf"
+              frameborder="0">
+      </iframe>
     </div>
   </div>
 </template>

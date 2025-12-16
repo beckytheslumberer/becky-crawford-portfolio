@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\src\\components\\HelloWorld.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\HelloWorld.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\src\\assets\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\assets\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\src\\App.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\App.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\src\\assets\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\assets\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\src\\assets\\base.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\assets\\base.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\src\\views\\ResumeView.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\views\\ResumeView.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\vite.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:vite.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,42 +38,79 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\package.json",
+              "RelativeDocumentMoniker": "package.json",
+              "ToolTip": "C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\package.json",
+              "RelativeToolTip": "package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-16T19:07:15.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "base.css",
+              "DocumentMoniker": "C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\src\\assets\\base.css",
+              "RelativeDocumentMoniker": "src\\assets\\base.css",
+              "ToolTip": "C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\src\\assets\\base.css",
+              "RelativeToolTip": "src\\assets\\base.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-16T18:47:33.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.css",
+              "DocumentMoniker": "C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\src\\assets\\main.css",
+              "RelativeDocumentMoniker": "src\\assets\\main.css",
+              "ToolTip": "C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\src\\assets\\main.css",
+              "RelativeToolTip": "src\\assets\\main.css",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-16T18:46:26.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "App.vue",
               "DocumentMoniker": "C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\src\\App.vue",
               "RelativeDocumentMoniker": "src\\App.vue",
               "ToolTip": "C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\src\\App.vue",
               "RelativeToolTip": "src\\App.vue",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2025-12-16T03:57:05.13Z",
+              "WhenOpened": "2025-12-16T18:46:14.224Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "main.css",
-              "DocumentMoniker": "C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\src\\assets\\main.css",
-              "RelativeDocumentMoniker": "src\\assets\\main.css",
-              "ToolTip": "C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\src\\assets\\main.css",
-              "RelativeToolTip": "src\\assets\\main.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-16T03:56:55.859Z",
+              "DocumentIndex": 3,
+              "Title": "ResumeView.vue",
+              "DocumentMoniker": "C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\src\\views\\ResumeView.vue",
+              "RelativeDocumentMoniker": "src\\views\\ResumeView.vue",
+              "ToolTip": "C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\src\\views\\ResumeView.vue",
+              "RelativeToolTip": "src\\views\\ResumeView.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-12-16T17:46:44.168Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HelloWorld.vue",
-              "DocumentMoniker": "C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\src\\components\\HelloWorld.vue",
-              "RelativeDocumentMoniker": "src\\components\\HelloWorld.vue",
-              "ToolTip": "C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\src\\components\\HelloWorld.vue",
-              "RelativeToolTip": "src\\components\\HelloWorld.vue",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2025-12-11T02:20:40.467Z",
-              "EditorCaption": ""
+              "DocumentIndex": 5,
+              "Title": "vite.config.ts",
+              "DocumentMoniker": "C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\vite.config.ts",
+              "RelativeDocumentMoniker": "vite.config.ts",
+              "ToolTip": "C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\vite.config.ts",
+              "RelativeToolTip": "vite.config.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-12-16T18:59:55.828Z"
             }
           ]
         }

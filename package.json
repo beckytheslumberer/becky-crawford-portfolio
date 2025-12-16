@@ -14,7 +14,9 @@
     "test:e2e": "playwright test",
     "build-only": "vite build",
     "type-check": "vue-tsc --build",
-    "lint": "eslint . --fix --cache"
+    "lint": "eslint . --fix --cache",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "pinia": "^3.0.4",
@@ -34,6 +36,7 @@
     "eslint": "^9.39.1",
     "eslint-plugin-playwright": "^2.3.0",
     "eslint-plugin-vue": "~10.5.1",
+    "gh-pages": "^6.3.0",
     "jiti": "^2.6.1",
     "jsdom": "^27.2.0",
     "npm-run-all2": "^8.0.4",

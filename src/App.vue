@@ -11,7 +11,9 @@ import { RouterLink, RouterView } from 'vue-router'
              src="@/assets/logo.svg"
              width="48"
              height="48" />
-        <span class="brand-name">Becky Crawford</span>
+        <RouterLink to="/" class="brand-name">
+          Becky Crawford
+        </RouterLink>
       </div>
 
       <nav class="main-nav">
@@ -23,7 +25,9 @@ import { RouterLink, RouterView } from 'vue-router'
     </header>
 
     <main class="page-content">
-      <RouterView />
+      <Transition name="page" mode="out-in">
+        <RouterView />
+      </Transition>
     </main>
   </div>
 </template>
@@ -52,30 +56,48 @@ import { RouterLink, RouterView } from 'vue-router'
 
   .logo {
     display: block;
+    border-radius: 12px;
   }
 
   .brand-name {
     font-size: 1.25rem;
-    font-weight: 420;
+    font-weight: 600;
     color: #ffffff;
+    text-decoration: none;
+  }
+
+  .brand-name:hover {
+    color: var(--accent-salmon);
+    text-decoration: none;
   }
 
   /* links right */
   .main-nav {
     display: flex;
-    gap: 1.5rem;
+    gap: 1.25rem;
     font-size: 0.95rem;
   }
 
     .main-nav a {
       text-decoration: none;
-      padding: 0.25rem 0;
-      border-bottom: 2px solid transparent;
+      text-underline-offset: 0.2em;
+      padding: 0;
+      color: #ffffff;
     }
 
       .main-nav a.router-link-exact-active {
         color: var(--accent-salmon, var(--color-text));
-        border-color: var(--accent-salmon, var(--color-text));
+        text-decoration: underline var(--accent-salmon, var(--color-text)) solid 1px;
+      }
+
+      .main-nav a:active {
+        color: #888 !important;
+        text-decoration: underline #888 solid 1px !important;
+      }
+
+      .main-nav a:hover {
+        color: #ffffff;
+        text-decoration: underline #ffffff solid 1px;
       }
 
   /* main view area */
@@ -83,4 +105,17 @@ import { RouterLink, RouterView } from 'vue-router'
     flex: 1;
     padding-top: 0.5rem;
   }
+
+  /* Page transitions */
+  .page-enter-active,
+  .page-leave-active {
+    transition: all 0.5s ease;
+  }
+
+  .page-enter-from,
+  .page-leave-to {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+
 </style>

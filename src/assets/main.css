@@ -17,9 +17,34 @@ a,
 }
 
 @media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
+  a {
+    position: relative;
+    display: inline-block;
+    line-height: 1.8;
   }
+
+    a::before {
+      content: '';
+      position: absolute;
+      top: 0.1em;
+      left: 50%;
+      transform: translateX(-50%);
+      width: calc(100% + 12px);
+      height: var(--link-line-height, 1.8em);
+      background-color: hsla(178, 91%, 80%, 0.25);
+      border-radius: 9px;
+      opacity: 0;
+      transition: opacity 0.2s ease;
+      z-index: -1;
+    }
+
+    a:hover::before {
+        opacity: 1;
+    }
+
+    a:active::before {
+      background-color: rgba(136, 136, 136, 0.5);
+    }
 }
 
 @media (min-width: 1024px) {
