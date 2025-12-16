@@ -10,6 +10,6 @@
     "\\src\\stores",
     "\\src\\views"
   ],
-  "SelectedNode": "\\public\\favicon.ico",
+  "SelectedNode": "\\src\\views\\MusicView.vue",
   "PreviewInSolutionExplorer": false
 }
