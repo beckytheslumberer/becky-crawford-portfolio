@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\src\\views\\MusicView.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\views\\MusicView.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\src\\views\\AboutView.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\views\\AboutView.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -18,32 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "MusicView.vue",
+              "DocumentMoniker": "C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\src\\views\\MusicView.vue",
+              "RelativeDocumentMoniker": "src\\views\\MusicView.vue",
+              "ToolTip": "C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\src\\views\\MusicView.vue",
+              "RelativeToolTip": "src\\views\\MusicView.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-12-16T21:30:02.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ResumeView.vue",
               "DocumentMoniker": "C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\src\\views\\ResumeView.vue",
               "RelativeDocumentMoniker": "src\\views\\ResumeView.vue",
               "ToolTip": "C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\src\\views\\ResumeView.vue",
               "RelativeToolTip": "src\\views\\ResumeView.vue",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAD8AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAD8AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
               "WhenOpened": "2025-12-16T21:19:24.488Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AboutView.vue",
               "DocumentMoniker": "C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\src\\views\\AboutView.vue",
               "RelativeDocumentMoniker": "src\\views\\AboutView.vue",
               "ToolTip": "C:\\Users\\bwcbe\\OneDrive\\Desktop\\Website\\vue-project\\src\\views\\AboutView.vue",
               "RelativeToolTip": "src\\views\\AboutView.vue",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAGQAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2025-12-16T21:19:08.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-16T21:19:08.648Z"
             }
           ]
         }
