@@ -24,23 +24,31 @@
       </div>
 
       <div class="about-text">
-        <p class="about-main">
-          Lorem ipsum main background paragraph about you, your work, and what you care about.
-        </p>
+        <div class="about-section">
+          <span class="about-header">Background</span>
+          <p class="about-main">
+            Frick okay Idk this is hard to think about. I'm a little nerd who likes video games and likes making them. I've been making games since I was little. Growing up I made games in Scratch, Pygame, Gamemaker Studio, and Unity. I studied for a few years working towards a computer science degree at NC State. I joined the esports group there and quickly fell in love with it. I started doing pretty well, won some smaller tournaments, and I tried to pursue it as a career. I got to learn a lot of skills in a team environment and as a team leader. I was somewhat successful, but got burned out putting so much time into it. Eventually I decided to transfer to SNHU to pursue a degree in game development. This allowed me a unique experience of learning coding at a deeper level and the core aspects of software development. Then switching over to a broader focus on game development in Unreal Engine. In my studies, I got experience designing levels, implementing gameplay mechanics, creating terrain, designing UI, soundtrack composition, and sound design. I've worked on projects with a team, and as a solo dev. I have experience using version control such as Github, Bitbucket, and Jenkins.
+          </p>
+        </div>
 
-        <p class="about-sub">
-          <strong>Interests.</strong>
-          Short paragraph about your interests, hobbies, and what you do for fun.
-        </p>
+        <div class="about-section">
+          <span class="about-header">Interests</span>
+          <p class="about-sub">
+            Soccer, Music Production, Esports, Cycling, Hiking
+          </p>
+        </div>
 
-        <p class="about-sub">
-          <strong>Favorite games.</strong>
-          Short paragraph listing a few favorite games and why you like them.
-        </p>
+        <div class="about-section">
+          <span class="about-header">Favorite Games</span>
+          <p class="about-sub">
+            PUBG, Counter Strike, Minecraft, Age of Empires II: DE, OpenTTD, Kerbal Space Program, Dwarf Fortress, Factorio, Football Manager
+          </p>
+        </div>
       </div>
     </section>
   </div>
 </template>
+
 
 <style scoped>
   .about-page {
@@ -83,7 +91,7 @@
     display: grid;
     grid-template-columns: minmax(0, 280px) minmax(0, 1fr);
     gap: 2rem;
-    align-items: flex-start;
+    align-items: start;
   }
 
   /* portrait */
@@ -93,25 +101,47 @@
     border-radius: 16px;
     object-fit: cover;
     display: block;
+    margin-top: 1.25rem;
   }
 
   /* text blocks */
   .about-text {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
     color: #ffffff;
   }
+
+  .about-photo {
+    position: relative;
+  }
+
+    .about-photo img {
+      width: 100%;
+      max-width: 280px;
+      border-radius: 20px;
+      object-fit: cover;
+      display: block;
+      padding: 4px;
+      outline: 4px solid #f76c45;
+      outline-offset: 4px;
+      background: #000000;
+    }
+
+  .about-section {
+    margin-bottom: 1.5rem;
+    }
 
   .about-main {
     font-size: 1rem;
     line-height: 1.7;
-  }
+    margin: 0;
+    }
 
   .about-sub {
     font-size: 0.95rem;
     line-height: 1.6;
-  }
+    margin: 0;
+    }
 
   /* stack on small screens */
   @media (max-width: 768px) {
