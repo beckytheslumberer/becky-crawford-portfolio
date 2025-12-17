@@ -10,6 +10,6 @@
     "\\src\\stores",
     "\\src\\views"
   ],
-  "SelectedNode": "\\src\\router\\index.ts",
+  "SelectedNode": "\\src\\views\\AboutView.vue",
   "PreviewInSolutionExplorer": false
 }
