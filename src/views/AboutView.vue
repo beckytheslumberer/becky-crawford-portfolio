@@ -12,7 +12,9 @@
       </div>
 
       <div class="about-header-right">
-        <!-- empty for now, or add a small link later -->
+        <span class="about-header-link about-header-link--ghost">
+          About
+        </span>
       </div>
     </header>
 

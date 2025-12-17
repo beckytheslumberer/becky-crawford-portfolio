@@ -10,6 +10,6 @@
     "\\src\\stores",
     "\\src\\views"
   ],
-  "SelectedNode": "\\package.json",
+  "SelectedNode": "\\src\\router\\index.ts",
   "PreviewInSolutionExplorer": false
 }
