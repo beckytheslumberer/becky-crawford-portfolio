@@ -3,6 +3,7 @@ import WorkView from '../views/WorkView.vue'
 import MusicView from '../views/MusicView.vue'
 import AboutView from '../views/AboutView.vue'
 import ResumeView from '../views/ResumeView.vue'
+import ModelingView from '../views/ModelingView.vue'
 
 const router = createRouter({
   history: createWebHashHistory(import.meta.env.BASE_URL),
@@ -30,6 +31,12 @@ const router = createRouter({
       name: 'resume',
       component: ResumeView,
       meta: { title: 'Becky Crawford - Resume' }
+    },
+    {
+      path: '/modeling',
+      name: 'modeling',
+      component: ModelingView,
+      meta: { title: 'Becky Crawford - Modeling' }
     },
   ],
 })
