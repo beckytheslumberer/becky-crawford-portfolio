@@ -4,6 +4,8 @@ import MusicView from '../views/MusicView.vue'
 import AboutView from '../views/AboutView.vue'
 import ResumeView from '../views/ResumeView.vue'
 import ModelingView from '../views/ModelingView.vue'
+import TorchView from '@/views/TorchView.vue'
+import BunnyWunnyView from '@/views/BunnyWunnyView.vue'
 
 const router = createRouter({
   history: createWebHashHistory(import.meta.env.BASE_URL),
@@ -37,6 +39,18 @@ const router = createRouter({
       name: 'modeling',
       component: ModelingView,
       meta: { title: 'Becky Crawford - Modeling' }
+    },
+    {
+      path: '/torch',
+      name: 'torch',
+      component: TorchView,
+      meta: { title: 'Becky Crawford - Torch' }
+    },
+    {
+      path: '/bunnywunny',
+      name: 'bunnywunny',
+      component: BunnyWunnyView,
+      meta: { title: 'Becky Crawford - Bunny and Wunny Escape!' }
     },
   ],
 })
