@@ -3,17 +3,17 @@
     <header class="about-header">
       <div class="about-header-left">
         <span class="about-header-link about-header-link--ghost">
-          About
+          About Me
         </span>
       </div>
 
       <div class="about-header-center">
-        <h1>About</h1>
+        <h1>About Me</h1>
       </div>
 
       <div class="about-header-right">
         <span class="about-header-link about-header-link--ghost">
-          About
+          About Me
         </span>
       </div>
     </header>
@@ -25,23 +25,54 @@
 
       <div class="about-text">
         <div class="about-section">
-          <span class="about-header">Background</span>
           <p class="about-main">
-            I'm a game developer with a passion for creating immersive experiences. My journey began early, teaching myself game development through Scratch, Pygame, GameMaker Studio, and Unity before pursuing computer science at NC State. As I was building a technical foundation in programming and software development principles, I joined the university's esports club. I fell in love with competitive esports and quickly excelled, winning some tournaments and competing at a semi-professional level. Soon I discovered an unexpected opportunity to apply my technical skills in a competitive context. I developed Python scripts for performance analysis to help identify areas my teams could improve, created strategic diagramming tools using Processing, and served as a bridge between players and developers - communicating bugs, structural issues, and gameplay ideas. As I progressed in my esports career, I gained experience in team coordination, leadership under pressure, and iterative improvement. However, after experiencing burnout from the intense time commitment, I realized I wanted to channel my passion and technical skills back into game creation, leading me to transfer to SNHU's game development program. This move let me combine my strong foundation in computer science fundamentals with a more specialized expertise in game design and Unreal Engine. During my studies, I picked up my hobby of music production more seriously, and I got to compose soundtracks and work on sound design for many of my projects. My skillset spans gameplay mechanics implementation, UI design, soundtrack composition, 3D Modeling, level design, terrain creation, sound design, and more. I've worked on projects both as a solo developer and as part of collaborative teams, utilizing industry-standard version control systems including Github, Bitbucket, and Jenkins. I'm excited to bring my technical skills, creative vision, and competitive mindset to more challenging projects to come.
+            Hi, I’m Becky Crawford — a Gameplay Programmer and Technical Artist focused on building expressive, systems-driven experiences in Unreal Engine 5.
+
+            I’ve been making games since I was young, starting with Scratch before moving through Pygame, GameMaker Studio, and Unity. That early curiosity grew into a deeper interest in programming, systems design, and player interaction emerging from well-structured mechanics. I later pursued computer science studies at NC State, where I developed a strong foundation in software development and problem solving.
+
+            During college, I joined the university esports club and unexpectedly discovered another side of game development: analyzing games as complex systems. Competing at a semi-professional level taught me how small mechanical and feedback changes can dramatically affect player experience. I began applying my programming skills directly to competition by building Python tools for performance analysis, creating strategic visualization tools using Processing, and acting as a bridge between players and developers by communicating gameplay issues and design insights.
+
+            That experience shaped how I approach development today — with a strong focus on iteration, clarity, and player-centered systems design.
+
+            After stepping away from competitive esports, I transferred to Southern New Hampshire University’s Game Programming and Development program to fully focus on creating games. There, I specialized in Unreal Engine development, working across gameplay programming, UI systems, technical art workflows, and interactive audio.
+          </p>
+        </div>
+
+        <div class="about-section">
+          <p class="about-main">
+            My work combines programming and creativity, including:<br />
+
+            • Gameplay systems and mechanics implementation (C++ & Blueprints)<br />
+
+            • Shader experimentation and real-time visuals<br />
+
+            • Interactive audio and sound design using MetaSounds<br />
+
+            • UI and player feedback systems<br />
+
+            • Level and environment development<br />
+
+            • Music composition and soundtrack production<br />
+
+            I enjoy working at the intersection of engineering and art — building tools and systems that empower expressive gameplay while remaining performant and scalable.
+
+            Whether working solo or collaboratively, I emphasize iterative development, clear communication, and thoughtful technical design.
+
+            I’m currently seeking opportunities as a Gameplay Programmer or Technical Artist, where I can contribute strong technical foundations, creative problem-solving, and a competitive mindset shaped by years of esports experience.
           </p>
         </div>
 
         <div class="about-section">
           <span class="about-header">Interests</span>
           <p class="about-sub">
-            Soccer, Music Production, Esports, Cycling, Hiking
+            Soccer • Music Production • Esports • Cycling • Hiking
           </p>
         </div>
 
         <div class="about-section">
           <span class="about-header">Favorite Games</span>
           <p class="about-sub">
-            PUBG, Counter Strike, Minecraft, Age of Empires II: DE, OpenTTD, Kerbal Space Program, Dwarf Fortress, Factorio, Football Manager
+            PUBG • Counter-Strike • Minecraft • Age of Empires II: Definitive Edition • OpenTTD • Kerbal Space Program • Dwarf Fortress • Factorio • Football Manager
           </p>
         </div>
       </div>
@@ -122,7 +153,7 @@
       object-fit: cover;
       display: block;
       padding: 4px;
-      outline: 4px solid #f76c45;
+      outline: 4px solid #ffffff;
       outline-offset: 4px;
       background: #000000;
     }
