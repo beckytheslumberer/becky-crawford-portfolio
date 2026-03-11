@@ -1,3 +1,6 @@
+<script setup>
+  import AppFooter from '@/components/AppFooter.vue'
+</script>
 <template>
   <div class="about-page">
     <header class="about-header">
@@ -26,7 +29,7 @@
       <div class="about-text">
         <div class="about-section">
           <p class="about-main">
-            Hi, I’m Becky Crawford — a Gameplay Programmer and Technical Artist focused on building expressive, systems-driven experiences in Unreal Engine 5.
+            Hi, I’m Becky Crawford — a Gameplay Programmer focused on building expressive, systems-driven experiences in Unreal Engine 5.
 
             I’ve been making games since I was young, starting with Scratch before moving through Pygame, GameMaker Studio, and Unity. That early curiosity grew into a deeper interest in programming, systems design, and player interaction emerging from well-structured mechanics. I later pursued computer science studies at NC State, where I developed a strong foundation in software development and problem solving.
 
@@ -43,11 +46,8 @@
             My work combines programming and creativity, including:<br />
 
             • Gameplay systems and mechanics implementation (C++ & Blueprints)<br />
-
-            • Shader experimentation and real-time visuals<br />
-
-            • Interactive audio and sound design using MetaSounds<br />
-
+            <!-- • Shader experimentation and real-time visuals<br /> -->
+            <!-- • Interactive audio and sound design using MetaSounds<br /> -->
             • UI and player feedback systems<br />
 
             • Level and environment development<br />
@@ -57,8 +57,8 @@
             I enjoy working at the intersection of engineering and art — building tools and systems that empower expressive gameplay while remaining performant and scalable.
 
             Whether working solo or collaboratively, I emphasize iterative development, clear communication, and thoughtful technical design.
-
-            I’m currently seeking opportunities as a Gameplay Programmer or Technical Artist, where I can contribute strong technical foundations, creative problem-solving, and a competitive mindset shaped by years of esports experience.
+            <!-- or Technical Artist -->
+            I’m currently seeking opportunities as a Gameplay Programmer, where I can contribute strong technical foundations, creative problem-solving, and a competitive mindset shaped by years of esports experience.
           </p>
         </div>
 
@@ -72,11 +72,12 @@
         <div class="about-section">
           <span class="about-header">Favorite Games</span>
           <p class="about-sub">
-            PUBG • Counter-Strike • Minecraft • Age of Empires II: Definitive Edition • OpenTTD • Kerbal Space Program • Dwarf Fortress • Factorio • Football Manager
+            PUBG • Minecraft • Age of Empires II: DE • Kerbal Space Program • Dwarf Fortress • Factorio • Football Manager
           </p>
         </div>
       </div>
     </section>
+    <AppFooter />
   </div>
 </template>
 

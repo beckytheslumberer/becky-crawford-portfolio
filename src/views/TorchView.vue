@@ -1,3 +1,7 @@
+<script setup>
+  import AppFooter from '@/components/AppFooter.vue'
+</script>
+
 <template>
   <div class="torch-page">
     <header class="torch-header">
@@ -19,14 +23,12 @@
         <article class="torch-item">
           <h2 class="torch-item-title">Inventory System</h2>
           <div class="torch-item-video-wrap">
-            <video
-              class="torch-item-video"
-              src="/InventorySystem.mp4"
-              autoplay
-              loop
-              muted
-              playsinline
-            ></video>
+            <video class="torch-item-video"
+                   src="/InventorySystem.mp4"
+                   autoplay
+                   loop
+                   muted
+                   playsinline></video>
           </div>
           <p class="torch-item-text">
             The player uses some rags and a first aid to fill up the fuel and health bars. Showcases moving items around, dropping them, and picking them up.
@@ -36,14 +38,12 @@
         <article class="torch-item">
           <h2 class="torch-item-title">Lighting Brazier</h2>
           <div class="torch-item-video-wrap">
-            <video
-              class="torch-item-video"
-              src="/LightingBrazier.mp4"
-              autoplay
-              loop
-              muted
-              playsinline
-            ></video>
+            <video class="torch-item-video"
+                   src="/LightingBrazier.mp4"
+                   autoplay
+                   loop
+                   muted
+                   playsinline></video>
           </div>
           <p class="torch-item-text">
             Collecting some firewood to light a brazier. Saves a checkpoint for the player, and unlocks a new area.
@@ -53,14 +53,12 @@
         <article class="torch-item">
           <h2 class="torch-item-title">Digging up Loot</h2>
           <div class="torch-item-video-wrap">
-            <video
-              class="torch-item-video"
-              src="/ShovelDigging.mp4"
-              autoplay
-              loop
-              muted
-              playsinline
-            ></video>
+            <video class="torch-item-video"
+                   src="/ShovelDigging.mp4"
+                   autoplay
+                   loop
+                   muted
+                   playsinline></video>
           </div>
           <p class="torch-item-text">
             Finding the shovel tool, and using it to dig up some loot.
@@ -70,14 +68,12 @@
         <article class="torch-item">
           <h2 class="torch-item-title">Chopping a Tree down</h2>
           <div class="torch-item-video-wrap">
-            <video
-              class="torch-item-video"
-              src="/AxeChopping.mp4"
-              autoplay
-              loop
-              muted
-              playsinline
-            ></video>
+            <video class="torch-item-video"
+                   src="/AxeChopping.mp4"
+                   autoplay
+                   loop
+                   muted
+                   playsinline></video>
           </div>
           <p class="torch-item-text">
             Finding the axe tool, and using it to chop down a tree.
@@ -85,6 +81,7 @@
         </article>
       </section>
     </main>
+    <AppFooter />
   </div>
 </template>
 

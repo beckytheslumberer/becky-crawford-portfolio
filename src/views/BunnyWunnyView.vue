@@ -1,3 +1,7 @@
+<script setup>
+  import AppFooter from '@/components/AppFooter.vue'
+</script>
+
 <template>
   <div class="bunny-page">
     <header class="bunny-header">
@@ -20,14 +24,12 @@
         <article class="bunny-item">
           <h2 class="bunny-item-title">Bunny and Wunny Intro</h2>
           <div class="bunny-item-video-wrap">
-            <video
-              class="bunny-item-video"
-              src="/BunnyWunnyIntro.mp4"
-              autoplay
-              loop
-              muted
-              playsinline
-            ></video>
+            <video class="bunny-item-video"
+                   src="/BunnyWunnyIntro.mp4"
+                   autoplay
+                   loop
+                   muted
+                   playsinline></video>
           </div>
           <p class="bunny-item-text">
             Shows the main menu, the level zoomed out, and switching between the characters Bunny and Wunny.
@@ -38,14 +40,12 @@
         <article class="bunny-item">
           <h2 class="bunny-item-title">Wunny Is Stinky</h2>
           <div class="bunny-item-video-wrap">
-            <video
-              class="bunny-item-video"
-              src="/WunnyStinky.mp4"
-              autoplay
-              loop
-              muted
-              playsinline
-            ></video>
+            <video class="bunny-item-video"
+                   src="/WunnyStinky.mp4"
+                   autoplay
+                   loop
+                   muted
+                   playsinline></video>
           </div>
           <p class="bunny-item-text">
             Wunny is stinky and sad. Bunny helps him out by turning on the shower.
@@ -56,14 +56,12 @@
         <article class="bunny-item">
           <h2 class="bunny-item-title">Bunny Gets Caught</h2>
           <div class="bunny-item-video-wrap">
-            <video
-              class="bunny-item-video"
-              src="/BunnyCaught.mp4"
-              autoplay
-              loop
-              muted
-              playsinline
-            ></video>
+            <video class="bunny-item-video"
+                   src="/BunnyCaught.mp4"
+                   autoplay
+                   loop
+                   muted
+                   playsinline></video>
           </div>
           <p class="bunny-item-text">
             Bunny taunts the caretaker, and tries to run away. But she gets caught!
@@ -74,14 +72,12 @@
         <article class="bunny-item">
           <h2 class="bunny-item-title">Bunny in Disguise</h2>
           <div class="bunny-item-video-wrap">
-            <video
-              class="bunny-item-video"
-              src="/BunnyDisguised.mp4"
-              autoplay
-              loop
-              muted
-              playsinline
-            ></video>
+            <video class="bunny-item-video"
+                   src="/BunnyDisguised.mp4"
+                   autoplay
+                   loop
+                   muted
+                   playsinline></video>
           </div>
           <p class="bunny-item-text">
             Bunny slips into disguise. Now the caretakers don't try and chase her on sight.
@@ -92,14 +88,12 @@
         <article class="bunny-item">
           <h2 class="bunny-item-title">Bunny and Wunny Escape</h2>
           <div class="bunny-item-video-wrap">
-            <video
-              class="bunny-item-video"
-              src="/BunnyWunnyEscape.mp4"
-              autoplay
-              loop
-              muted
-              playsinline
-            ></video>
+            <video class="bunny-item-video"
+                   src="/BunnyWunnyEscape.mp4"
+                   autoplay
+                   loop
+                   muted
+                   playsinline></video>
           </div>
           <p class="bunny-item-text">
             Bunny and Wunny break free. They go enjoy the outside world with its sunshine, candy rain, and confetti.
@@ -107,6 +101,7 @@
         </article>
       </section>
     </main>
+    <AppFooter />
   </div>
 </template>
 

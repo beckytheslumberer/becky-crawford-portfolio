@@ -1,4 +1,5 @@
 <script setup>
+  import AppFooter from '@/components/AppFooter.vue'
   import { ref, onMounted, onBeforeUnmount } from 'vue'
 
   const volume = ref(50)
@@ -72,6 +73,7 @@
         </div>
       </div>
     </section>
+    <AppFooter />
   </div>
 </template>
 

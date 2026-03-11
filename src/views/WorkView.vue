@@ -1,38 +1,37 @@
 <script setup>
-import { RouterLink } from 'vue-router'
+  import { RouterLink } from 'vue-router'
+  import AppFooter from '@/components/AppFooter.vue'
 </script>
 
 <template>
   <div class="work">
     <header class="work-header">
-      <div class="work-header-left">
-        <span class="work-header-link work-header-link--ghost">
-          Work
-        </span>
-      </div>
-
       <div class="work-header-center">
-        <h1>Work</h1>
-      </div>
-
-      <div class="work-header-right">
-        <span class="work-header-link work-header-link--ghost">
-          Work
-        </span>
+        <h1 class="work-header-name">Becky Crawford</h1>
+        <p class="work-header-role">Gameplay Programmer | Unreal Engine 5</p>
       </div>
     </header>
+
+    <section class="work-intro">
+      <p class="work-intro-body">
+        I build gameplay systems and interactive frameworks focused on <br />
+        player interaction, systemic design, and responsive feedback. <br />
+        Experienced with technical problem solving in real-time environments.
+      </p>
+      <p class="work-intro-tags">
+        C++ • Blueprint Scripting • Gameplay Systems • Debugging
+      </p>
+    </section>
 
     <section class="work-grid">
       <RouterLink class="work-item" to="/torch">
         <div class="work-item-media">
-          <video
-            class="work-item-video"
-            src="/torch.mp4"
-            autoplay
-            loop
-            muted
-            playsinline
-          ></video>
+          <video class="work-item-video"
+                 src="/torch.mp4"
+                 autoplay
+                 loop
+                 muted
+                 playsinline></video>
 
           <div class="work-item-label">
             TORCH
@@ -42,14 +41,12 @@ import { RouterLink } from 'vue-router'
 
       <RouterLink class="work-item" to="/bunnywunny">
         <div class="work-item-media">
-          <video
-            class="work-item-video"
-            src="/GGJ2026.mp4"
-            autoplay
-            loop
-            muted
-            playsinline
-          ></video>
+          <video class="work-item-video"
+                 src="/GGJ2026.mp4"
+                 autoplay
+                 loop
+                 muted
+                 playsinline></video>
 
           <div class="work-item-label">
             GGJ2026
@@ -58,6 +55,7 @@ import { RouterLink } from 'vue-router'
       </RouterLink>
 
     </section>
+    <AppFooter />
   </div>
 </template>
 
@@ -75,10 +73,18 @@ import { RouterLink } from 'vue-router'
     align-items: center;
   }
 
-  .work-header-left,
-  .work-header-right {
-    min-width: max-content;
-    padding-top: 2.5rem;
+  .work-header-name {
+    margin: 0;
+    font-size: 2.6rem;
+    font-weight: 600;
+    color: #ffffff;
+  }
+
+  .work-header-role {
+    margin: -0.4rem 0 0;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #f76c45;
   }
 
   .work-header-center {
@@ -93,8 +99,25 @@ import { RouterLink } from 'vue-router'
       color: #ffffff;
     }
 
-  .work-header-link--ghost {
-    visibility: hidden;
+  .work-intro {
+    max-width: 720px;
+    margin: -0.8rem auto;
+    text-align: center;
+  }
+
+  .work-intro-body {
+    margin: -0.2rem 0 0.8rem;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #dddfe8;
+  }
+
+  .work-intro-tags {
+    margin: 0.2rem 0 1.0rem;
+    font-size: 1.0rem;
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+    color: #aeb5d0;
   }
 
   /* Grid */
@@ -116,9 +139,6 @@ import { RouterLink } from 'vue-router'
   border-radius: 16px;
   padding: 6px;
   background: #000000;
-  outline: 8px solid transparent;
-  outline-offset: 6px;
-  transition: outline-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 /* TORCH label: centered, airy, a bit magical */
@@ -167,12 +187,9 @@ import { RouterLink } from 'vue-router'
 }
 
 /* Hover/focus ring on the container, not just the media */
-.work-item:hover .work-item-video,
-.work-item:focus-visible .work-item-video {
+.work-item:hover,
+.work-item:focus-visible {
   outline-color: #f76c45;
-  box-shadow:
-    0 0 0 4px #f76c45,
-    0 10px 30px rgba(0, 0, 0, 0.7);
 }
 
   /* Clickable cells */
@@ -180,29 +197,10 @@ import { RouterLink } from 'vue-router'
     display: block;
     border-radius: 16px;
     overflow: hidden;
+    outline: 4px solid transparent;
+    outline-offset: -4px;
+    transition: outline-color 0.2s ease;
   }
-
-    .work-item img,
-    .work-item video {
-      width: 100%;
-      display: block;
-      object-fit: cover;
-      border-radius: 16px;
-      padding: 6px;
-      background: #000000;
-      outline: 8px solid transparent;
-      outline-offset: 6px;
-      transition: outline-color 0.2s ease, box-shadow 0.2s ease;
-    }
-
-    .work-item:hover img,
-    .work-item:focus-visible img,
-    .work-item:hover video,
-    .work-item:focus-visible video {
-      outline-color: #f76c45;
-      box-shadow: 0 0 0 4px #f76c45,
-                  0 10px 30px rgba(0, 0, 0, 0.6);
-    }
 
   @media (max-width: 768px) {
     .work-grid {

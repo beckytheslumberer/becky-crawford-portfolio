@@ -1,4 +1,6 @@
 <script setup lang="ts">
+  import AppFooter from '@/components/AppFooter.vue'
+
 const pdfUrl = '/becky-crawford-portfolio/resume.pdf'
 const pdfFileName = 'Becky-Crawford-Resume.pdf'
 
@@ -41,6 +43,7 @@ const downloadResume = () => {
               frameborder="0">
       </iframe>
     </div>
+    <AppFooter />
   </div>
 </template>
 
@@ -48,7 +51,7 @@ const downloadResume = () => {
   .resume-page {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 0rem;
     min-height: calc(100vh - 120px);
   }
 
@@ -104,7 +107,7 @@ const downloadResume = () => {
 
   .resume-viewer {
     flex: 1;
-    min-height: 60vh;
+    min-height: 70vh;
     border-radius: 0.5rem;
     overflow: hidden;
   }
