@@ -1,7 +1,7 @@
 # Becky Crawford's Portfolio
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a5f8794c-db79-4c5e-b4e3-aad8a18cb8ae/deploy-status)](https://app.netlify.com/projects/becky-crawford-portfolio/deploys)
 
-Welcome to my Vue 3 [portfolio](https://beckytheslumberer.github.io/becky-crawford-portfolio) project, built with Vite!
+Welcome to my Vue 3 [portfolio](https://becky-crawford-portfolio.netlify.app) project, built with Vite!
 
 ## Recommended IDE Setup
 
