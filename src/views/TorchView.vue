@@ -21,7 +21,7 @@
       <p class="torch-overview-body">
         Torch is a survival prototype about navigating darkness with limited light. Under the hood,
         it uses a reusable interaction framework that powers items, inventory, and player-driven events.
-        This section shows the game in motion; the deep dive breaks down how the system is built.
+        This page shows the game in motion; the deep dive breaks down how the system is built.
       </p>
       <p class="torch-tags">
         Unreal Engine 5 • C++ • Blueprint • Interaction Systems
