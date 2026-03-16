@@ -7,6 +7,10 @@
   font-weight: normal;
 }
 
+code {
+  color: #ffffff;
+}
+
 a,
 .salmon {
   text-decoration: none;

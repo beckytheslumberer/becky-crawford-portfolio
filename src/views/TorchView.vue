@@ -4,19 +4,33 @@
 
 <template>
   <div class="torch-page">
-    <header class="torch-header">
-      <div class="torch-header-left">
-        <span class="torch-header-link torch-header-link--ghost"></span>
-      </div>
+    <div class="torch-back">
+      <RouterLink to="/">
+        ← Back to Home
+      </RouterLink>
+    </div>
 
+    <header class="torch-header">
       <div class="torch-header-center">
         <h1>Torch Survival Game</h1>
       </div>
-
-      <div class="torch-header-right">
-        <span class="torch-header-link torch-header-link--ghost"></span>
-      </div>
     </header>
+
+    <section class="torch-overview">
+      <h2 class="torch-overview-title">Building a Scalable Interaction Framework</h2>
+      <p class="torch-overview-body">
+        Torch is a survival prototype about navigating darkness with limited light. Under the hood,
+        it uses a reusable interaction framework that powers items, inventory, and player-driven events.
+        This section shows the game in motion; the deep dive breaks down how the system is built.
+      </p>
+      <p class="torch-tags">
+        Unreal Engine 5 • C++ • Blueprint • Interaction Systems
+      </p>
+      <RouterLink to="/torch-interaction">
+        Read the interaction framework deep dive →
+      </RouterLink>
+    </section>
+
 
     <main class="torch-content">
       <section class="torch-grid">
@@ -100,12 +114,6 @@
   align-items: center;
 }
 
-.torch-header-left,
-.torch-header-right {
-  min-width: max-content;
-  padding-top: 2.5rem;
-}
-
 .torch-header-center {
   flex: 1;
   text-align: center;
@@ -118,9 +126,73 @@
   color: #ffffff;
 }
 
-.torch-header-link--ghost {
-  visibility: hidden;
+.torch-subheader-link {
+  display: inline-block;
+  margin-top: 0.75rem;
+  text-decoration: none;
+  text-align: center;
 }
+
+.torch-subheader {
+  margin: -0.4rem 0 0;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #f76c45;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.torch-tags {
+  margin: 0.2rem 0 1.0rem;
+  font-size: 1.0rem;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: #aeb5d0;
+}
+
+.torch-subheader-link:hover .torch-subheader,
+.torch-subheader-link:focus-visible .torch-subheader {
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+  .torch-overview {
+    max-width: 960px;
+    margin: 0 auto 2.5rem;
+    padding: 1.5rem 1.25rem;
+    border-radius: 16px;
+    background: rgba(10, 10, 16, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  .torch-overview-title {
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #ffffff;
+  }
+
+  .torch-overview-subtitle {
+    margin: 0.35rem 0 0.75rem;
+    font-size: 1rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #f5d1a5;
+  }
+
+  .torch-overview-body {
+    margin: 0 0 0.5rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #dddfe8;
+  }
+
+  .torch-overview-tags {
+    margin: 0 0 1rem;
+    font-size: 0.9rem;
+    color: #aeb5d0;
+  }
+
+
 
 /* Content layout */
 .torch-content {
@@ -174,4 +246,36 @@
   line-height: 1.5;
   color: #dddfe8;
 }
+
+  .torch-overview a {
+    position: relative;
+    display: inline-block;
+    line-height: 1.8;
+  }
+
+    .torch-overview a::before {
+      content: '';
+      position: absolute;
+      top: 0.1em;
+      left: 50%;
+      transform: translateX(-50%);
+      width: calc(100% + 12px);
+      height: var(--link-line-height, 1.8em);
+      background-color: hsla(178, 91%, 80%, 0.75);
+      border-radius: 9px;
+      opacity: 0;
+      transition: opacity 0.2s ease;
+      z-index: -1;
+    }
+
+    .torch-overview a:hover::before,
+    .torch-overview a:focus-visible::before {
+      opacity: 1;
+    }
+
+  .torch-back {
+    max-width: 960px;
+    padding: 0.5rem 0 0 0;
+  }
+
 </style>

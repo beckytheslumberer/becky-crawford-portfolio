@@ -72,13 +72,14 @@
   }
 
   .site-footer-meta a {
-    color: #f5d1a5;
+    color: #f76c45;
     text-decoration: none;
   }
 
-    .site-footer-meta a:hover {
-      text-decoration: underline;
-    }
+  .site-footer-meta a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
 
   @media (max-width: 600px) {
     .site-footer-contact {
