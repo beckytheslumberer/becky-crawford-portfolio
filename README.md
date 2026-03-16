@@ -1,5 +1,5 @@
 # Becky Crawford's Portfolio
-[![pages-build-deployment](https://github.com/beckytheslumberer/becky-crawford-portfolio/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/beckytheslumberer/becky-crawford-portfolio/actions/workflows/pages/pages-build-deployment)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a5f8794c-db79-4c5e-b4e3-aad8a18cb8ae/deploy-status)](https://app.netlify.com/projects/becky-crawford-portfolio/deploys)
 
 Welcome to my Vue 3 [portfolio](https://beckytheslumberer.github.io/becky-crawford-portfolio) project, built with Vite!
 
@@ -26,6 +26,6 @@ npm run dev
 
 ## Continuous Deployment
 
-[![pages-build-deployment](https://github.com/beckytheslumberer/becky-crawford-portfolio/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/beckytheslumberer/becky-crawford-portfolio/actions/workflows/pages/pages-build-deployment)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a5f8794c-db79-4c5e-b4e3-aad8a18cb8ae/deploy-status)](https://app.netlify.com/projects/becky-crawford-portfolio/deploys)
 
-See the current deployment of the <b>main</b> branch [here](https://beckytheslumberer.github.io/becky-crawford-portfolio)
+See the current deployment of the <b>main</b> branch [here](https://becky-crawford-portfolio.netlify.app)
